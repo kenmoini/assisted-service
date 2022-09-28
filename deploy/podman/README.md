@@ -69,7 +69,7 @@ Additionally, make sure to change the following:
 ASSISTED_SERVICE_URL: https://127.0.0.1:8090  
 HTTPS_CERT_FILE: "/etc/certs/tls.crt" # Need to match certs-configmap-volume mountPath
 HTTPS_KEY_FILE: "/etc/certs/tls.key"  # Need to match certs-configmap-volume mountPath
-HTTPS_CA_FILE: "/etc/certs/tls.crt"   # Need to match certs-configmap-volume mountPath. Needed if the certificate is not signed by a CA in RHEL's default trust bundle.
+HTTPS_CA_FILE: "/etc/certs/ca.crt"   # Need to match certs-configmap-volume mountPath. Needed if the certificate is not signed by a CA in RHEL's default trust bundle.
 ASSISTED_SERVICE_HOST: 127.0.0.1:8090
 ASSISTED_SERVICE_SCHEME: https # A must for the UI nginx to be configured with TLS
 ```
