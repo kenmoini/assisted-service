@@ -11,3 +11,8 @@ data:
     -----BEGIN CERTIFICATE-----
     YOUR CERT HERE
     -----END CERTIFICATE-----
+  ca.crt: |-
+    -----BEGIN CERTIFICATE-----
+    YOUR CA CERT HERE IF NOT IN DEFAULT
+    RHEL TRUSTED ROOT CA STORE
+    -----END CERTIFICATE-----
